@@ -1,5 +1,4 @@
-// src/app/page.tsx
-
+//src/app/counter/page.tsx
 'use client'
 
 import {useState} from "react";
@@ -12,7 +11,15 @@ const handleSubmit = (e: React.FormEvent) => {
 
     e.preventDefault();
     setCounter(count + 1);
+/*     setCounter(prevCount => prevCount + 1); */
 
+// agregar formulario para que una persona se pueda registar a la appliacion, el signup nombre, correo, contrasenia compos y botton
+// validar al presionr button : todos campos al menos 1 caracter, el correro si sea un correo, al password tiene que tener letra mayuscula, ser minimo 8 letras, y un caracter especial min
+// buscar como se hace en react
+// la informacion del usuario se guardada en memoria (use state), usa 1 objeto y 1 sola variable
+// al haber un error, popup de lo que paso alerta abajo del button
+// in the topright show the persons name. in the navbar
+// usar UseContext
 
 }
 
